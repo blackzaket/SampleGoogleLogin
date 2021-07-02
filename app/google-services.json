@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "749625360332",
+    "project_id": "samplelogin-6e283",
+    "storage_bucket": "samplelogin-6e283.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749625360332:android:85b0fb4f93f15933b52769",
+        "android_client_info": {
+          "package_name": "com.monsterb.samplegooglelogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "749625360332-7uf6t2fmn3je2l3qfq0ersogkllaktvh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTX0Oy2Gibmy3Tp6F4E7lgr8kSvwDas3U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "749625360332-7uf6t2fmn3je2l3qfq0ersogkllaktvh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
