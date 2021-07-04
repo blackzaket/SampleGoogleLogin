@@ -70,8 +70,11 @@ class MainActivity : AppCompatActivity() {
     override fun onStart() {
         super.onStart()
 
+        //로그인한 유저 정보 확인 할 수 있음 
         val currentUser = auth.currentUser
         updateUI(currentUser)
+
+
     }
 
     private fun updateUI(currentUser: FirebaseUser?) {
