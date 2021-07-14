@@ -2,6 +2,7 @@ package com.monsterb.samplegooglelogin
 
 import android.os.Bundle
 import android.view.Menu
+import android.widget.Toast
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.navigation.NavigationView
@@ -77,8 +78,11 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    private fun updateUI(currentUser: FirebaseUser?) {
-//        TODO("Not yet implemented")
+    fun updateUI(currentUser: FirebaseUser?) {
+        currentUser?.let {
+            Toast.makeText(this, currentUser.displayName + " log in " + currentUser.uid, Toast.LENGTH_SHORT).show()
+
+        }
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
